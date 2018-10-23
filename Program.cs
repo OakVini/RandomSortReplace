@@ -20,10 +20,10 @@ namespace AlgoritmosOrdenacao
             Console.WriteLine("{0}:{1}:{2}:{3}", now.Hour, now.Minute, now.Second, now.Millisecond);
             Console.WriteLine();
 
-            // Put random bytes into this array.
+            // Coloca bytes aleatorios nesse array.
             byte[] array = new byte[10];
-            // Use Random class and NextBytes method.
-            // ... Display the bytes with following method.
+            // Usa Random class e NextBytes (Metodos).
+            // ... Mostra os Bytes com os seguintes metodos.
             Random random = new Random();
             random.NextBytes(array);
             Display(array);
@@ -46,7 +46,7 @@ namespace AlgoritmosOrdenacao
 
             int processed = 0;
 
-            // Loop through and display bytes in array.
+            // Loop pra mostrar os bytes como array.
             foreach (byte value in array)
             {
 
